@@ -9,7 +9,7 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>SSG フォーム</title>
+    <title>SSG フォーム（添付ファイル対応）</title>
   </head>
   <body>
     <main>
@@ -642,8 +642,7 @@
       fieldsView.hidden = false;
       confirmView.hidden = true;
       heading.textContent = "お問い合わせ";
-      lead.innerHTML =
-        "下記フォームに必要事項をご入力の上、送信してください。";
+      lead.innerHTML = "下記フォームに必要事項をご入力の上、送信してください。";
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
